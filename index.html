@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="form_container">
+      <h2>Task 1</h2>
+
+      <form class="form" action="">
+        <!-- <label for="username">Full Name</label> -->
+        <input type="text" placeholder="FullName" id="fullName" required />
+        <!-- <label for="phone">Phone Number</label> -->
+        <input
+          type="text"
+          placeholder="Phone Number"
+          id="phoneNumber"
+          name="Phone Number"
+          required
+        />
+        <!-- <label for="password">Password</label> -->
+        <input type="password" placeholder="Password" id="password" required />
+        <!-- <label for="passwordConfirmstion">Password Confirmation</label> -->
+        <input
+          type="password"
+          placeholder="Password Confirmation"
+          id="passwordConfirmstion"
+          required
+        />
+        <button type="submit">Отправить</button>
+      </form>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="secondTask">
+      <h2>Task 2</h2>
+      <form class="secondTask_form" action="">
+        <input type="text" placeholder="name" id="inputSecondTask" />
+        <button class="secondTask_form_btn" id="saveButton">save</button>
+        <button class="secondTask_form_btn" id="displayButton">display</button>
+        <button class="secondTask_form_btn" id="clearButton">clear</button>
+      </form>
+      <br />
+      <br />
+      <div id="result">
+        <ul class="result_ul"></ul>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <img
+      id="myImage"
+      src="./assets/2023-05-22_19-53-43.png"
+      onmouseenter="changeImage()"
+      onmouseout="restoreImage()"
+    />
+    <!-- <img id="img2" src="./assets/article-050819090154.png" alt="" /> -->
+    <button id="btn">Нажми меня</button>
+
+    <!-- <label for=""></label>
+    <input type="text" id="inputText" />
+    <button id="button">save</button> -->
+  </body>
+  <script src="./main.js"></script>
+</html>

@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(126, 118, 239);
+}
+h2 {
+  text-align: center;
+  color: #fff;
+  font-family: "Gill Sans";
+  margin-bottom: 10px;
+}
+.form_container {
+  margin: 100px auto 0;
+  /* border: 5px solid red; */
+  border-radius: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  align-items: center;
+}
+.form input {
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 7px;
+  height: 30px;
+  width: 400px;
+  padding: 10px;
+  outline: none;
+}
+button {
+  background-color: #38de62;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  width: 130px;
+  height: 30px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #63ef86;
+}
+
+.secondTask {
+  margin: 0 auto;
+  width: 650px;
+}
+.secondTask_form {
+  display: flex;
+  justify-content: center;
+  /* border: solid 2px blue; */
+  border-radius: 10px;
+  padding: 10px 0;
+  /* background-color: #faf0f0; */
+}
+.secondTask_form input {
+  width: 250px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 7px;
+  height: 30px;
+  padding: 10px;
+}
+.secondTask_form_btn {
+  margin-left: 10px;
+  width: 90px;
+}
+#clearButton {
+  background-color: rgb(238, 177, 64);
+}
+#clearButton:hover {
+  cursor: pointer;
+  background-color: rgb(245, 193, 98);
+}
+#displayButton:hover {
+  cursor: pointer;
+  background-color: rgb(238, 238, 101);
+}
+#displayButton {
+  background-color: rgb(227, 227, 68);
+}
+
+#result {
+  width: 300px;
+  height: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+}
+
+img {
+  width: 300px;
+  height: auto;
+}
+
+li {
+  list-style: none;
+}
